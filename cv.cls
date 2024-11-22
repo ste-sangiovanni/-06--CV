@@ -1,16 +1,16 @@
 \ProvidesClass{cv}[2024/11/20 v1.0 Customized CV class]
 
-\LoadClass[10pt,a4paper]{article} % Set font size and paper type
+\LoadClass[10pt,a4paper]{article} 
 
 % Packages
-\usepackage[parfill]{parskip} % Remove paragraph indentation
+\usepackage[parfill]{parskip} 
 \usepackage{array}
 \usepackage{ifthen}
 \usepackage{hyperref}
-\usepackage{graphicx} % For GitHub logo
-\usepackage[dvipsnames]{xcolor} % Allow colors including RoyalPurple
+\usepackage{graphicx} 
+\usepackage[dvipsnames]{xcolor} 
 \usepackage{tabularx}
-\usepackage{fontawesome} % For FontAwesome icons (optional)
+\usepackage{fontawesome} 
 
 % Define custom colors
 %\definecolor{RoyalPurple}{rgb}{0.47, 0.32, 0.66}
@@ -26,11 +26,10 @@
     pdfauthor={Stefano Sangiovanni}
 }
 
-% Page style
 \pagestyle{empty}
 
 % Header customization
-\def\namesize{\Large} % Name size
+\def\namesize{\Large} 
 \def\addressskip{\smallskip}
 \def\nameskip{\bigskip}
 
@@ -39,7 +38,7 @@
   \begin{center}
     \textbf{\namesize\@name}\\
     \smallskip
-    \@location \\
+    \@role \hspace{0.04em} \textbullet \hspace{0.04em} \@location \\ 
     \faEnvelope \hspace{0.3em} \href{mailto:\@mailto}{\@mailto} \hspace{0.04em} \textbullet \hspace{0.04em} % Dot separator
     \faGithub \hspace{0.3em} \href{\@github}{Github} \hspace{0.04em} \textbullet \hspace{0.04em} % Dot separator
     Updated: \today
@@ -47,12 +46,12 @@
 \vspace{0.3em}
 }
 
-
 % Header fields definitions
 \def\name#1{\def\@name{#1}}
 \def\location#1{\def\@location{#1}}
 \def\mailto#1{\def\@mailto{#1}}
 \def\github#1{\def\@github{#1}}
+\def\role#1{\def\@role{#1}}
 
 % Automatically insert header when document begins
 \let\ori@document=\document
@@ -96,7 +95,7 @@
   \vspace{0.2em}
 }
 
-% New environment for Teaching Section (Guest Lectures + Tutoring without bullet points)
+% environment for Teaching Section 
 \newenvironment{rTeachingSection}[3]{
   \noindent \textbf{#1} \hfill {#2} \\ 
   \noindent \textit{#3} 
@@ -110,16 +109,17 @@
   \end{tabularx}
 }
 
+% Env for working papers
 \newenvironment{rWPSection}[1]{
   \noindent {#1}
 }
 
 % Environment for professional experience
 \newenvironment{rExperienceSection}[3]{
-  \noindent \textbf{#1} \hfill \textit{#2} \\ % Role and dates
-  \noindent \textit{#3} \\ % Organization or additional details
+  \noindent \textbf{#1} \hfill \textit{#2} \\ 
+  \noindent \textit{#3} \\ 
 }{
-  \vspace{0.4em} % Space after each entry
+  \vspace{0.4em} 
 }
 
 
