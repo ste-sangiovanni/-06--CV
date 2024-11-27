@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732352890.94652 "h:/My Drive/[06] CV/CV.tex" "CV.pdf" "CV" 1732352893.60732 0
+["pdflatex"] 1732703794.02675 "h:/My Drive/[06] CV/CV.tex" "CV.pdf" "CV" 1732703796.54692 0
   "C:/Users/stesa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732295093 82554 466658a598516db0e90e46aef40128f6 ""
   "C:/Users/stesa/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1732095814 11548 44dd188f4d156c0799478f8867e56ad2 ""
   "C:/Users/stesa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1732040165 11986955 f3a87334f4c3d088ab6f688ac4cae41f ""
@@ -73,11 +73,11 @@
   "C:/Users/stesa/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1730400552 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/stesa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/stesa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "CV.aux" 1732352893 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "CV.out" 1732352892 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.tex" 1732352888 10037 672a45d1386a19bb5d5a9cbcb2e769db ""
+  "CV.aux" 1732703796 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "CV.out" 1732703795 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.tex" 1732703792 10228 b4eba4b42caf7e7fe018c64590923cca ""
   "cv.cls" 1732308115 3107 198d6281ec0777d86a1b9a23e1b529bc ""
-  "h:/My Drive/[06] CV/CV.tex" 1732352888 10037 672a45d1386a19bb5d5a9cbcb2e769db ""
+  "h:/My Drive/[06] CV/CV.tex" 1732703792 10228 b4eba4b42caf7e7fe018c64590923cca ""
   (generated)
   "CV.aux"
   "CV.log"
