@@ -116,7 +116,7 @@
 
 % Environment for professional experience
 \newenvironment{rExperienceSection}[3]{
-  \noindent \textbf{#1} \hfill \textit{#2} \\ 
+  \noindent \textbf{#1} \hfill {#2} \\ 
   \noindent \textit{#3} \\ 
 }{
   \vspace{0.4em} 
