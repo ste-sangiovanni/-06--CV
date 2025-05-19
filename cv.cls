@@ -39,8 +39,8 @@
     \textbf{\namesize\@name}\\
     \smallskip
     \@role \hspace{0.04em} \textbullet \hspace{0.04em} \@location \\ 
-    \faEnvelope \hspace{0.3em} \href{mailto:\@mailto}{\@mailto} \hspace{0.04em} \textbullet \hspace{0.04em} % Dot separator
-    \faGithub \hspace{0.3em} \href{\@github}{Github} \hspace{0.04em} \textbullet \hspace{0.04em} % Dot separator
+    \faEnvelope \hspace{0.3em} \href{mailto:\@mailto}{\@mailto}  \textbullet \hspace{0.02em} % Dot separator
+    \faGlobe \hspace{0.02em} \href{\@website}{Website}  \textbullet \hspace{0.04em} % Dot separator
     Updated: \today
   \end{center}
 \vspace{0.3em}
@@ -52,6 +52,8 @@
 \def\mailto#1{\def\@mailto{#1}}
 \def\github#1{\def\@github{#1}}
 \def\role#1{\def\@role{#1}}
+\def\website#1{\def\@website{#1}}
+
 
 % Automatically insert header when document begins
 \let\ori@document=\document

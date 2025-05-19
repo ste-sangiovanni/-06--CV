@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1747638237.9705 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV/CV.tex" "CV.pdf" "CV" 1747638238.44493 0
-  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV/CV.tex" 1736853626.419 10543 b3162118a0c4fadad30e62a7389c19b3 ""
+["pdflatex"] 1747645548.71896 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV/CV.tex" "CV.pdf" "CV" 1747645549.11501 0
+  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV/CV.tex" 1747645548.62637 12475 ae40a3b3e9b6898d8b4c9fc487643d97 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -12,6 +12,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
@@ -77,10 +78,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743860947 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743860925 3345743 a05531e03f59fac0f10b635aff8927e9 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV.aux" 1747638238.39019 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "CV.out" 1747638238.2481 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.tex" 1736853626.419 10543 b3162118a0c4fadad30e62a7389c19b3 ""
-  "cv.cls" 1736854288.999 3100 49d61333d507cb59a82bd164af856219 ""
+  "CV.aux" 1747645549.07512 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "CV.out" 1747645548.95061 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.tex" 1747645548.62637 12475 ae40a3b3e9b6898d8b4c9fc487643d97 ""
+  "cv.cls" 1747645282.67531 3107 4b22e0f46bbc13505f20f9cbb3574118 ""
   (generated)
   "CV.aux"
   "CV.log"
