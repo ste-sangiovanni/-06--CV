@@ -1,8 +1,8 @@
-PWD /Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV
+PWD /Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/[06] CV/CV.tex
+INPUT /Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex
 OUTPUT CV.log
 INPUT ./cv.cls
 INPUT cv.cls
