@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1770137674.27089 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" "CV.pdf" "CV" 1770137674.70745 0
-  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" 1770137674.12276 14264 8551b7da2e16233e5b35ed5b51d0531a ""
+["pdflatex"] 1771492368.69335 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" "CV.pdf" "CV" 1771492369.10285 0
+  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" 1771492368.6009 14617 465f0ee91a199eba2cda39118353ab1d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -78,9 +78,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743860947 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743860925 3345743 a05531e03f59fac0f10b635aff8927e9 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV.aux" 1770137674.66583 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "CV.out" 1770137674.52917 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.tex" 1770137674.12276 14264 8551b7da2e16233e5b35ed5b51d0531a ""
+  "CV.aux" 1771492369.0609 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "CV.out" 1771492368.92266 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.tex" 1771492368.6009 14617 465f0ee91a199eba2cda39118353ab1d ""
   "cv.cls" 1759995397.16861 3107 4b22e0f46bbc13505f20f9cbb3574118 ""
   (generated)
   "CV.aux"
