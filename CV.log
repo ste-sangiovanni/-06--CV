@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.5)  28 MAY 2026 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.5)  28 MAY 2026 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -311,6 +311,11 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 26.
 
+Overfull \hbox (30.0pt too wide) in paragraph at lines 32--32
+[][][] 
+ []
+
+
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 38--38
 [] [] 
  []
@@ -358,6 +363,11 @@ Overfull \hbox (14.46031pt too wide) in paragraph at lines 71--71
 
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 71--71
 [] [] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 80--80
+[][][] 
  []
 
 
@@ -365,6 +375,11 @@ Overfull \hbox (14.46031pt too wide) in paragraph at lines 71--71
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 145--145
+[][][] 
+ []
+
+
 Overfull \hbox (32.22221pt too wide) in paragraph at lines 148--148
 []  [] 
  []
@@ -445,6 +460,11 @@ Overfull \hbox (32.22221pt too wide) in paragraph at lines 208--208
  []
 
 
+Overfull \hbox (30.0pt too wide) in paragraph at lines 217--217
+[][][] 
+ []
+
+
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 225--225
 [] [] 
  []
@@ -481,22 +501,22 @@ Overfull \hbox (14.46031pt too wide) in paragraph at lines 249--249
 
 
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 249--249
+[] [] 
+ []
+
+
+Overfull \hbox (14.46031pt too wide) in paragraph at lines 259--259
+[] [] 
+ []
+
+
+Overfull \hbox (14.46031pt too wide) in paragraph at lines 259--259
 [] [] 
  []
 
 
 
 [2]
-Overfull \hbox (14.46031pt too wide) in paragraph at lines 259--259
-[] [] 
- []
-
-
-Overfull \hbox (14.46031pt too wide) in paragraph at lines 259--259
-[] [] 
- []
-
-
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 267--267
 [] [] 
  []
@@ -537,53 +557,68 @@ Overfull \hbox (14.46031pt too wide) in paragraph at lines 293--293
  []
 
 
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 306--306
-[]  [] 
+Overfull \hbox (30.0pt too wide) in paragraph at lines 303--303
+[][][] 
  []
 
 
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 310--310
-[]  [] 
- []
-
-
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 314--314
-[]  [] 
- []
-
-
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 318--318
-[]  [] 
- []
-
-
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 322--322
-[]  [] 
- []
-
-
-Overfull \hbox (18.61908pt too wide) in paragraph at lines 336--336
+Overfull \hbox (18.61908pt too wide) in paragraph at lines 308--308
 [] [] 
  []
 
 
-Overfull \hbox (18.61908pt too wide) in paragraph at lines 342--342
+Overfull \hbox (18.61908pt too wide) in paragraph at lines 314--314
 [] [] 
  []
 
 
-Overfull \hbox (18.61908pt too wide) in paragraph at lines 348--348
+Overfull \hbox (18.61908pt too wide) in paragraph at lines 320--320
 [] [] 
  []
 
 
-Overfull \hbox (18.61908pt too wide) in paragraph at lines 354--354
+Overfull \hbox (18.61908pt too wide) in paragraph at lines 326--326
 [] [] 
  []
 
 
-Overfull \hbox (18.61908pt too wide) in paragraph at lines 360--360
+Overfull \hbox (18.61908pt too wide) in paragraph at lines 332--332
 [] [] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 341--341
+[][][] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 344--344
+[]  [] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 348--348
+[]  [] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 352--352
+[]  [] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 356--356
+[]  [] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 360--360
+[]  [] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 369--369
+[][][] 
  []
 
 
@@ -597,38 +632,48 @@ Overfull \hbox (14.46031pt too wide) in paragraph at lines 381--381
  []
 
 
-
-[3]
 Overfull \hbox (14.46031pt too wide) in paragraph at lines 388--388
 [] [] 
  []
 
 
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 401--401
+
+[3]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 399--399
+[][][] 
+ []
+
+
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 402--402
 []  [] 
  []
 
 
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 405--405
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 406--406
 []  [] 
  []
 
 
-Overfull \hbox (32.2222pt too wide) in paragraph at lines 409--409
+Overfull \hbox (32.2222pt too wide) in paragraph at lines 410--410
 []  [] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 419--419
+[][][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 420.
+(Font)              <7> on input line 421.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 420.
+(Font)              <5> on input line 421.
 
-Overfull \hbox (97.35828pt too wide) in paragraph at lines 420--428
+Overfull \hbox (97.35828pt too wide) in paragraph at lines 421--429
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--428
+Underfull \hbox (badness 10000) in paragraph at lines 421--429
 
  []
 
@@ -645,13 +690,13 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  13440 strings out of 473190
  231543 string characters out of 5715801
- 644534 words of memory out of 5000000
+ 644533 words of memory out of 5000000
  36567 multiletter control sequences out of 15000+600000
  562906 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,612b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,93p,612b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on CV.pdf (4 pages, 179794 bytes).
+Output written on CV.pdf (4 pages, 179827 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream

@@ -100,14 +100,14 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSection}[1]{
-  \vspace{0.45em}
-  \noindent
-  {\large\textcolor{CVAccent}{\textbf{\MakeUppercase{#1}}}}
-  \par\vspace{0.1em}
-  \noindent\textcolor{CVAccent}{\rule{\textwidth}{0.5pt}}
-  \vspace{-0.32em}
-}{
   \vspace{0.15em}
+  \noindent
+  {\large\textcolor{CVAccent}{\textbf{#1}}}
+  \par\vspace{-0.75em}
+  \noindent\textcolor{CVAccent}{\rule{\textwidth}{0.5pt}}
+  \par\vspace{0.25em}
+}{
+  \vspace{0.35em}
 }
 
 \newcommand{\subtitle}[1]{%
