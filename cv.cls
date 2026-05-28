@@ -1,143 +1,265 @@
-\ProvidesClass{cv}[2024/11/20 v1.0 Customized CV class]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Academic CV class
+% Customized for Stefano Sangiovanni
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\LoadClass[10pt,a4paper]{article} 
+\ProvidesClass{cv}[2026/05/28 v2.1 Academic CV class]
 
-% Packages
-\usepackage[parfill]{parskip} 
-\usepackage{array}
-\usepackage{ifthen}
-\usepackage{hyperref}
-\usepackage{graphicx} 
-\usepackage[dvipsnames]{xcolor} 
-\usepackage{tabularx}
-\usepackage{fontawesome} 
+\LoadClass[10pt,a4paper]{article}
 
-% Define custom colors
-%\definecolor{RoyalPurple}{rgb}{0.47, 0.32, 0.66}
+%----------------------------------------------------------------------------------------
+% PACKAGES
+%----------------------------------------------------------------------------------------
 
-\definecolor{RoyalPurple}{rgb}{0.0, 0.0, 1.0} % Pure blue
+\RequirePackage[
+  left=0.55in,
+  right=0.55in,
+  top=0.55in,
+  bottom=0.55in
+]{geometry}
 
-% Set hyperlink appearance
+\RequirePackage[parfill]{parskip}
+\RequirePackage{array}
+\RequirePackage{enumitem}
+\RequirePackage{hyperref}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{fontawesome5}
+\RequirePackage{ifthen}
+
+%----------------------------------------------------------------------------------------
+% COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{CVAccent}{HTML}{2B2D8F}
+\definecolor{CVText}{HTML}{111111}
+\definecolor{CVGray}{HTML}{555555}
+
+%----------------------------------------------------------------------------------------
+% GENERAL STYLE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\renewcommand{\arraystretch}{1.05}
+
 \hypersetup{
     colorlinks=true,
-    linkcolor=RoyalPurple,
-    urlcolor=RoyalPurple,
+    linkcolor=CVAccent,
+    urlcolor=CVAccent,
+    citecolor=CVAccent,
     pdftitle={Stefano Sangiovanni CV},
     pdfauthor={Stefano Sangiovanni}
 }
 
-\pagestyle{empty}
+%----------------------------------------------------------------------------------------
+% HEADER FIELDS
+%----------------------------------------------------------------------------------------
 
-% Header customization
-\def\namesize{\Large} 
-\def\addressskip{\smallskip}
-\def\nameskip{\bigskip}
-
-% Header content definition
-\newcommand{\printheader}{
-  \begin{center}
-    \textbf{\namesize\@name}\\
-    \smallskip
-    \@role \hspace{0.04em} \textbullet \hspace{0.04em} \@location \\ 
-    \faEnvelope \hspace{0.3em} \href{mailto:\@mailto}{\@mailto}  \textbullet \hspace{0.02em} % Dot separator
-    \faGlobe \hspace{0.02em} \href{\@website}{Website}  \textbullet \hspace{0.04em} % Dot separator
-    Updated: \today
-  \end{center}
-\vspace{0.3em}
-}
-
-% Header fields definitions
 \def\name#1{\def\@name{#1}}
+\def\role#1{\def\@role{#1}}
 \def\location#1{\def\@location{#1}}
 \def\mailto#1{\def\@mailto{#1}}
-\def\github#1{\def\@github{#1}}
-\def\role#1{\def\@role{#1}}
 \def\website#1{\def\@website{#1}}
+\def\websitetext#1{\def\@websitetext{#1}}
+\def\linkedin#1{\def\@linkedin{#1}}
+\def\linkedintext#1{\def\@linkedintext{#1}}
 
+% Defaults
+\def\@websitetext{Website}
+\def\@linkedintext{LinkedIn}
 
-% Automatically insert header when document begins
+%----------------------------------------------------------------------------------------
+% HEADER
+%----------------------------------------------------------------------------------------
+
+\newcommand{\printheader}{
+  \begin{center}
+    {\LARGE \textbf{\@name}}\\[0.25em]
+    {\normalsize \@role}\hspace{0.35em}\textbullet\hspace{0.35em}\@location\\[0.25em]
+    {\small
+      \faEnvelope\hspace{0.25em}\href{mailto:\@mailto}{\@mailto}
+      \hspace{0.35em}\textbullet\hspace{0.35em}
+      \faGlobe\hspace{0.25em}\href{\@website}{\@websitetext}
+      \hspace{0.35em}\textbullet\hspace{0.35em}
+      \faLinkedin\hspace{0.25em}\href{\@linkedin}{\@linkedintext}
+    }\\[0.15em]
+    {\footnotesize \textcolor{CVGray}{Updated: \today}}
+  \end{center}
+  \vspace{0.45em}
+}
+
 \let\ori@document=\document
 \renewcommand{\document}{
   \ori@document
   \printheader
 }
 
-% Command for section subtitles 
-\newcommand{\subtitle}[1]{%
-  \noindent  \textcolor{RoyalPurple}{\textbf{#1}} \noindent
-}
+%----------------------------------------------------------------------------------------
+% SECTION FORMATTING
+%----------------------------------------------------------------------------------------
 
-% Section formatting
 \newenvironment{rSection}[1]{
-  \vspace{0.5em}
-  \noindent \textcolor{RoyalPurple}{\textbf{\MakeUppercase{#1}}} \\[-0.3em]
-  \hrule\vspace{0.5em}
-  \begin{list}{}{\setlength{\leftmargin}{1.5em}}
-  \item[]
-}{
-  \end{list}
-  \vspace{0.4em}
-}
-
-% General subsection formatting
-\newenvironment{rSubsection}[4]{
-  \textbf{#1} \hfill {#2} \\
-  \textit{#3} \hfill \textit{#4} 
-  \begin{list}{$\cdot$}{\leftmargin=1em \itemsep=-0.5em}
-}{
-  \end{list}
-  \vspace{0.2em}
-}
-
-% Training subsection environment
-\newenvironment{rTrainingSubsection}[3]{
-  \noindent \textbf{#1} \hfill {#2} \\
-  \noindent {#3}
-}{
-  \vspace{0.2em}
-}
-
-% environment for Teaching Section 
-\newenvironment{rTeachingSection}[3]{
-  \noindent \textbf{#1} \hfill {#2} \\ 
-  \noindent \textit{#3} 
-}
-
-% Environment presentations 
-\newenvironment{rPresSection}[2]{
+  \vspace{0.45em}
   \noindent
-  \begin{tabularx}{\textwidth}{@{}lX@{}} 
-    \textbf{#1} & #2 \\ 
-  \end{tabularx}
-}
-
-% Env for working papers
-\newenvironment{rWPSection}[1]{
-  \noindent {#1}
-}
-
-% Environment for professional experience
-\newenvironment{rExperienceSection}[3]{
-  \noindent \textbf{#1} \hfill {#2} \\ 
-  \noindent \textit{#3} \\ 
+  {\large\textcolor{CVAccent}{\textbf{\MakeUppercase{#1}}}}
+  \par\vspace{0.1em}
+  \noindent\textcolor{CVAccent}{\rule{\textwidth}{0.5pt}}
+  \vspace{-0.32em}
 }{
-  \vspace{0.4em} 
+  \vspace{0.15em}
 }
 
+\newcommand{\subtitle}[1]{%
+  \par\vspace{0.25em}%
+  \noindent{\textcolor{CVAccent}{\textbf{\small #1}}}%
+  \par\vspace{0.05em}%
+}
 
-% Skill table formatting
+%----------------------------------------------------------------------------------------
+% INTERNAL ENTRY HELPERS
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvTwoCol}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.72\textwidth}
+    #1
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.25\textwidth}
+    \raggedleft #2
+  \end{minipage}
+  \par
+}
+
+\newcommand{\cvDateCol}[2]{%
+  \noindent
+  \begin{minipage}[t]{5.8em}
+    \textbf{#1}
+  \end{minipage}%
+  \hspace{0.5em}
+  \begin{minipage}[t]{\dimexpr\textwidth-6.3em\relax}
+    #2
+  \end{minipage}
+  \par
+}
+
+\newcommand{\cvYearCol}[2]{%
+  \noindent
+  \begin{minipage}[t]{3.2em}
+    \textbf{#1}
+  \end{minipage}%
+  \hspace{0.5em}
+  \begin{minipage}[t]{\dimexpr\textwidth-3.7em\relax}
+    #2
+  \end{minipage}
+  \par
+}
+
+%----------------------------------------------------------------------------------------
+% ENTRY ENVIRONMENTS
+%----------------------------------------------------------------------------------------
+
+% Main entry with bullet points
+\newenvironment{cvEntry}[4]{
+  \cvTwoCol{\textbf{#1}}{#2}
+  \cvTwoCol{\textit{#3}}{\textit{#4}}
+  \vspace{-0.45em}
+  \begin{itemize}[
+    leftmargin=1.2em,
+    itemsep=0.05em,
+    parsep=0em,
+    topsep=0.15em
+  ]
+}{
+  \end{itemize}
+  \vspace{0.25em}
+}
+
+% Main entry with plain description, no bullets
+\newenvironment{cvEntryNoBullets}[4]{
+  \cvTwoCol{\textbf{#1}}{#2}
+  \cvTwoCol{\textit{#3}}{\textit{#4}}
+  \vspace{-0.15em}
+}{
+  \normalsize
+  \par\vspace{0.3em}
+}
+
+% Simple two-line entry without bullet points
+\newenvironment{cvSimpleEntry}[4]{
+  \cvTwoCol{\textbf{#1}}{#2}
+  \cvTwoCol{\textit{#3}}{\textit{#4}}
+  \vspace{0.35em}
+}{}
+
+% Teaching entry with description
+\newenvironment{teachingEntry}[4]{
+  \cvTwoCol{\textbf{#1}}{#2}
+  \cvTwoCol{#3}{\textit{#4}}
+  \vspace{-0.15em}
+  \small
+}{
+  \normalsize
+  \par\vspace{0.3em}
+}
+
+% Publication / manuscript entry, no indent
+\newenvironment{pubEntry}{
+  \par\vspace{0.12em}%
+  \begingroup
+  \setlength{\parindent}{0pt}%
+  \setlength{\leftskip}{0pt}%
+  \noindent\ignorespaces
+}{
+  \unskip\par
+  \endgroup
+  \vspace{0.12em}%
+}
+
+% Presentation entry
+\newenvironment{presentationEntry}[2]{
+  \cvYearCol{#1}{#2}
+  \vspace{0.55em}
+}{}
+
+% Dated entry: awards, memberships, short items
+\newenvironment{datedEntry}[2]{
+  \cvDateCol{#1}{#2}
+  \vspace{0.15em}
+}{}
+
+% Training entry
+\newenvironment{trainingEntry}[3]{
+  \noindent
+  \begin{minipage}[t]{\dimexpr\textwidth-3.4cm\relax}
+    \raggedright\textbf{#1}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{3.0cm}
+    \raggedleft #2
+  \end{minipage}
+  \par\vspace{0.05em}
+  {\small #3}
+  \par\vspace{0.45em}
+}{}
+
+% Professional experience entry
+\newenvironment{experienceEntry}[3]{
+  \cvTwoCol{\textbf{#1}}{#2}
+  \textit{#3}
+  \par\vspace{-0.15em}
+  \small
+}{
+  \normalsize
+  \par\vspace{0.35em}
+}
+
+% Skills table
 \newenvironment{skillsTable}{
-  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  \begin{tabular}{@{}>{\bfseries}p{5.2cm}p{\dimexpr\textwidth-2.2cm\relax}@{}}
 }{
   \end{tabular}
-}
-
-% Footer
-\newcommand{\footer}[1]{
-  \vfill
-  \begin{center}
-    \small #1
-  \end{center}
 }
 
 \endinput

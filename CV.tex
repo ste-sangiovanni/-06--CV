@@ -1,271 +1,418 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%  
-% 
-% Important note:
-% This template requires the cv.cls file to be in the same directory as the
-% .tex file. The cv.cls file provides the resume style used for structuring the
-% document.
-%
+% Academic CV - Stefano Sangiovanni
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\documentclass{cv}
+
 %----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+% PACKAGES
 %----------------------------------------------------------------------------------------
 
-\documentclass{cv} % Use the custom cv.cls style
-\usepackage[dvipsnames]{xcolor}
+\usepackage{csquotes}
 
-\usepackage[left=0.45in,top=0.6in,right=0.45in,bottom=0.5in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+%----------------------------------------------------------------------------------------
+% HEADER INFORMATION
+%----------------------------------------------------------------------------------------
 
-% Header information
 \name{Stefano Sangiovanni}
-\role{Ph.D Candidate in Political Science}
+\role{PhD Candidate in Political Science}
 \location{Milan, Italy}
 \mailto{stefano.sangiovanni@unimi.it}
 \website{https://ste-sangiovanni.github.io/}
+\websitetext{ste-sangiovanni.github.io}
+\linkedin{https://www.linkedin.com/in/stefano-sangiovanni1/}
+\linkedintext{LinkedIn}
 
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+% EDUCATION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
-\begin{rSubsection}{NASP Graduate School, University of Milan}{October 2023 -- Present}{PhD Candidate in Political Science}{Milan, Italy}
-\item Supervisors: Prof. Andrea Ceron, Prof. Giovanna M. Invernizzi
-\item Thesis Title (Provisional): “The balance between positional and valence issues in party competition” 
-\item Research Interests: Political Parties, Electoral Behavior, Quantitative Text Analysis, Survey Experiments, Computational Methods
-\end{rSubsection}
+\begin{cvEntryNoBullets}
+{NASP Graduate School, University of Milan}
+{Oct. 2023 -- Present}
+{PhD Candidate in Political Science}
+{Milan, Italy}
+Supervisors: Prof. \href{https://www.andreaceron.com}{Andrea Ceron} and Prof. \href{https://www.giovannainvernizzi.com}{Giovanna M. Invernizzi}. \\[0.2em]
+Dissertation: \enquote{The Balance Between Positional and Valence Issues in Party Competition}. \\[0.2em]
+Research interests: party competition, valence politics, electoral behavior, computational social science, quantitative text analysis, survey experiments.
+\end{cvEntryNoBullets}
 
-\begin{rSubsection}{Trinity College Dublin}{January 2026 -- April 2026}{Visiting PhD Researcher}{Dublin, Ireland}
-\item Sponsor: Prof. Constantine Boussalis
-\end{rSubsection}
+\begin{cvEntryNoBullets}
+{Trinity College Dublin}
+{Jan. 2026 -- Apr. 2026}
+{Visiting PhD Researcher}
+{Dublin, Ireland}
+Sponsor: Prof. \href{https://boussalis.com/}{Constantine Boussalis}.
+\end{cvEntryNoBullets}
 
-\begin{rSubsection}{University of Mannheim}{April 2025 -- May 2025}{Visiting PhD Researcher}{Mannheim, Germany}
-\item Visiting Fellowship at the Mannheim Centre for European Social Research (MZES)
-\end{rSubsection}
+\begin{cvEntryNoBullets}
+{University of Mannheim}
+{Apr. 2025 -- May 2025}
+{Visiting PhD Researcher}
+{Mannheim, Germany}
+Visiting Fellowship at the Mannheim Centre for European Social Research (MZES).
+\end{cvEntryNoBullets}
 
-\begin{rSubsection}{University of Milan}{October 2020 -- March 2023}{Master's Degree in Administration and Public Policy, 110/110 with honours}{Milan, Italy}
-\item Thesis Title: “Communicating in times of crisis: a comparative analysis of school policy discourse in Italy and Great Britain during the covid-19 pandemic”
-%\item Conducted a comparative analysis of 14 school policy discourses in Italy and Great Britain during the COVID-19 pandemic, building a framework to measure the quality of the discourse. Utilized sentiment analysis with Python on over 15k tweets to assess whether high-quality discourse resulted in a positive sentiment from users
-\end{rSubsection}
+\begin{cvSimpleEntry}
+{University of Milan}
+{Oct. 2020 -- Mar. 2023}
+{MA in Administration and Public Policy, 110/110 with honours}
+{Milan, Italy}
+\end{cvSimpleEntry}
 
-\begin{rSubsection}{University of Milan-Bicocca}{October 2017 -- October 2020}{Bachelor's Degree in Sociology}{Milan, Italy}
-\item Thesis Title: “Gender Representations in the Media: The Model of the Global Media Monitoring Project”
-\end{rSubsection}
+\begin{cvSimpleEntry}
+{University of Milan-Bicocca}
+{Oct. 2017 -- Oct. 2020}
+{BA in Sociology}
+{Milan, Italy}
+\end{cvSimpleEntry}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	TRAINING SECTION
+% PUBLICATIONS AND MANUSCRIPTS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Summer, Winter Schools \& Additional Training}
+\begin{rSection}{Publications \& Manuscripts}
 
-    \begin{rTrainingSubsection}{Adapters: Lightweight Machine Learning for Social Science Research, GESIS}{June 2025}
-    {Adapter-based fine-tuning of LLMs in Python}
-    \end{rTrainingSubsection}
+\subtitle{Revise \& Resubmit}
 
-    \begin{rTrainingSubsection}{Large Language Models for Political Scientists, SISP 2024}{September 2024}
-    {Gained hands-on experience with LLMs for political science research using Python}
-    \end{rTrainingSubsection}
-    
-    \begin{rTrainingSubsection}{Summer Institute in Computational Social Science (SICSS), University of Bologna}{June 2024}
-    {Two-week summer school on computational methods, with competitive selection process}
-    \end{rTrainingSubsection}
-    
-    \begin{rTrainingSubsection}{RECSM Winter Methods School, Universitat Pompeu Fabra}{March 2023}
-    {Network Analysis and Visualization with R}
-    \end{rTrainingSubsection}
-    
-    \begin{rTrainingSubsection}{RECSM Summer Methods School, Universitat Pompeu Fabra}{June 2022}
-    {Introduction to Python, Introduction to R, Survey Methodology and Survey Design} 
-    \end{rTrainingSubsection}
-    
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \enquote{Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties.} \textit{Electoral Studies}.
+\end{pubEntry}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \enquote{When Valence Strategies Increase Polling Support: Evidence from Electoral Campaigns.} \textit{Journal of Elections, Public Opinion and Parties}.
+\end{pubEntry}
+
+\subtitle{Under Review}
+
+\begin{pubEntry}
+Ceron, A., Negri, F., \& \textbf{Sangiovanni, S.} \enquote{What Does It Mean? A Survey Experiment on the Efficacy of Explaining the Means to Pursue a Policy Proposal.}
+\end{pubEntry}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \& Celebrin, G. \enquote{Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels.}
+\end{pubEntry}
+
+\begin{pubEntry}
+Taddei, F., \& \textbf{Sangiovanni, S.} \enquote{Just a Football Match? Italian Terraces' Banners Analysis.}
+\end{pubEntry}
+
+\subtitle{Working Papers}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.}, Ceron, A., \& Invernizzi, G. \enquote{Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments.}
+\end{pubEntry}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \enquote{Valence Beyond the Label: Identifying and Measuring Evaluative Competition in Party Politics.}
+\end{pubEntry}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \enquote{Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate.}
+\end{pubEntry}
+
+\subtitle{Selected Work in Progress}
+
+\begin{pubEntry}
+
+\begin{pubEntry}
+Ruggeri, A., Masullo, J., \& \textbf{Sangiovanni, S.} \enquote{Attitudes Toward Political Violence in Italy: A Survey Experimental Approach.}
+\end{pubEntry}
+
+\begin{pubEntry}
+Ceron, A., Negri, F., \& \textbf{Sangiovanni, S.} \enquote{Seeing the Populist Through Populist Eyes: Citizen Populism and the Image of the Populist Politician.}
+\end{pubEntry}
+
+\begin{pubEntry}
+\textbf{Sangiovanni, S.} \enquote{Feeding the Cycle of Negativity: Exploring the Media's Influence on the Tone of Electoral Campaigns.}
+\end{pubEntry}
+
+\textbf{Sangiovanni, S.} \enquote{Historical Anchoring and Ideological Over-Coherence in LLM-Based Synthetic Respondents.}
+\end{pubEntry}
+
 \end{rSection}
-     
+
 %----------------------------------------------------------------------------------------
-% TEACHING SECTION
+% CONFERENCE AND SEMINAR PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Conference \& Seminar Presentations}
+
+\begin{presentationEntry}{2026}
+{\textbf{European Consortium for Political Research (ECPR) General Conference}. Kraków, 8--11 Sept. 2026. \textit{Scheduled presentation}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2026}
+{\textbf{Italian Political Science Association (SISP) Annual Conference}. Trieste, 3--5 Sept. 2026. \textit{Scheduled presentation}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2026}
+{\textbf{European Political Science Society (EPSS) Annual Conference}. ICC Belfast, 18--20 June 2026. \textit{Scheduled presentation}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2026}
+{\textbf{PolMeth Europe}. Trinity College Dublin, 14--15 May 2026. \textit{Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2026}
+{\textbf{Quantitative and Computational Analysis of Text, Image and Video-as-Data (COMPTEXT)}. Birmingham, 23--25 Apr. 2026. \textit{Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2026}
+{\textbf{Political Institutions, Parties \& Public Opinion Seminars}. University of Milan, 14 Apr. 2026. \textit{Analyzing Representation and Strategic Party Communication in Parliamentary Debates.} With J. Diener.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{BAGSS Workshop on Computational Text Analysis in Party Research}. University of Bamberg, 25--26 Sept. 2025. \textit{Economic Performance Indicators and Strategic Valence Choices}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{Social Science Methodology Conference (RC33)}. University of Naples, 22--25 Sept. 2025. \textit{Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels}. With G. Celebrin.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{Italian Political Science Association (SISP) Annual Conference}. University of Naples, 4--6 Sept. 2025.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{MetRiSP Workshop}. MetRiSP Network, 3 Sept. 2025. \textit{Methods for Political Science Research in the Age of Artificial Intelligence}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{Collegio Carlo Alberto Days}. Collegio Carlo Alberto, Turin. \textit{When Valence Strategies Increase Polling Support: Evidence from Electoral Campaigns}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2025}
+{\textbf{MZES-DVPW Methods of Political Science}. University of Mannheim. \textit{Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments}. With A. Ceron and G. M. Invernizzi.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2024}
+{\textbf{POLS PIRSS Seminar Series}. University of Milan. \textit{Analyzing Public Perceptions of Government Actions and Political Scandals Through Survey Experimental Designs}. With U. Platini.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2024}
+{\textbf{Italian Political Science Association (SISP) Annual Conference}. University of Trieste, 12--14 Sept. 2024.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2024}
+{\textbf{Collegio Carlo Alberto Days}. Collegio Carlo Alberto, Turin. \textit{Valence Theory and Political Scandals: A Proposal of a Conjoint Experiment}.}
+\end{presentationEntry}
+
+\begin{presentationEntry}{2022}
+{\textbf{Jean Monnet Centres of Excellence}. University of Milan. \textit{European Emission Trading System: The Impact of EU-ETS on Costs and Benefits}. With A. Lombardi, M. Nascone, and E. Rossoni.}
+\end{presentationEntry}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TEACHING AND TUTORING
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Teaching \& Tutoring}
 
-% Subsection: Academic Tutoring & Teaching Assistant
-\subtitle{Teaching Assistant \& Academic Tutoring}
+\subtitle{Teaching Assistantships}
 
-\begin{rTeachingSection}{Italian Political System}{A.Y. 2025/26}{University of Milan, Italy}
-\end{rTeachingSection}
+\begin{teachingEntry}
+{Data Science for Organisations}
+{A.Y. 2026/27}
+{BA in Management of Organisation and Labour, University of Milan}
+{Milan, Italy}
+Applied tutorials in R. Course taught by prof. Cremonini
+\end{teachingEntry}
 
-\begin{rTeachingSection}{Public Policies}{A.Y. 2025/26}{University of Milan-Bicocca, Italy}
-\end{rTeachingSection}
+\begin{teachingEntry}
+{Data Visualization for Management}
+{A.Y. 2026/27}
+{BA in Management of Organisation and Labour, University of Milan}
+{Milan, Italy}
+Applied tutorials in Python. Course taught by prof. Cremonini.
+\end{teachingEntry}
 
-\begin{rTeachingSection}{Bachelor’s Degree Course in Political Science}{A.Y. 2023/24 -- 2025/26}{University of Milan, Italy}
-\end{rTeachingSection}
+\begin{teachingEntry}
+{Italian Political System}
+{A.Y. 2025/26}
+{BA in Political Science, University of Milan}
+{Milan, Italy}
+Oral examinations and course-related student support. Course taught by prof. Ceron.
+\end{teachingEntry}
 
-\begin{rTeachingSection}{Master’s Degree Course in Politics, Philosophy and Public Affairs}{A.Y. 2024/25}{University of Milan, Italy}
-\end{rTeachingSection}
-\newpage
-% Subsection: Guest Lectures
+\begin{teachingEntry}
+{Public Policies}
+{A.Y. 2025/26}
+{BA in Organisational Sciences, University of Milan-Bicocca}
+{Milan, Italy}
+Two lectures, support for student group activities. Course taught by prof. Negri.
+\end{teachingEntry}
+
+\subtitle{Academic Tutoring}
+
+\begin{teachingEntry}
+{Bachelor's Degree Course in Political Science}
+{A.Y. 2023/24 -- 2025/26}
+{University of Milan}
+{Milan, Italy}
+Academic tutoring and student support for the undergraduate programme in Political Science.
+\end{teachingEntry}
+
+\begin{teachingEntry}
+{Master's Degree Course in Politics, Philosophy and Public Affairs}
+{A.Y. 2024/25}
+{University of Milan}
+{Milan, Italy}
+Academic tutoring and student support for Master's students in Politics, Philosophy and Public Affairs.
+\end{teachingEntry}
+
 \subtitle{Guest Lectures}
 
-\begin{rTeachingSection}{Political Sociology}{A.Y. 2023/24 -- 2024/25}{BA in International Sciences and European Institutions, University of Milan} \\ 
-Course taught by Prof. Cristiano Vezzoni \\    
-Lecture: ``Measuring Democracy: Theory and Practice"" -- \href{https://github.com/ste-sangiovanni/democracy_seminar}{Lecture slides}   
-\end{rTeachingSection}
+\begin{teachingEntry}
+{Public Policy}
+{A.Y. 2025/26}
+{BA in Organisational Sciences, University of Milan-Bicocca}
+{Milan, Italy}
+\enquote{Introduction to Survey Experiments}, \enquote{Ordinary Least Squares (OLS): Intuition and Interpretation} - \href{https://github.com/ste-sangiovanni/guest-lecture-regression-survey-experiments}{Lecture slides}.
+\end{teachingEntry}
 
-\begin{rTeachingSection}{Politics, Philosophy and Public Affairs}{A.Y. 2024/25}{Thesis Seminars for Master's students, University of Milan} \\ 
-Lecture: ``How to plan a social sciences research design"" -- \href{https://github.com/ste-sangiovanni/PPPA_Thesis_Seminar}{Lecture slides}  \\ 
-Lecture: ``Introduction to Qualitative Research"" -- \href{https://github.com/ste-sangiovanni/PPPA_Thesis_Seminar}{Lecture slides}   
-\end{rTeachingSection}
+\begin{teachingEntry}
+{Political Sociology}
+{A.Y. 2023/24 -- 2024/25}
+{BA in International Sciences and European Institutions, University of Milan}
+{Milan, Italy}
+\enquote{Measuring Democracy: Theory and Practice} - \href{https://github.com/ste-sangiovanni/democracy_seminar}{Lecture slides}.
+\end{teachingEntry}
 
-\end{rSection}
-    
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS AND CONFERENCES SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Publications, Conferences \& Seminar Presentations}
-\subtitle{Conferences \& Seminar Presentations}
-
-\begin{rPresSection}{2026}{\textbf{European Consortium of Political Research (ECPR)}, \textit{Scheduled}, Kraków, 8-11 September 2026.}
-\end{rPresSection}
-
-\begin{rPresSection}{2026}{\textbf{European Political Science Society (EPSS)}, \textit{Scheduled}, ICC Belfast, 18-20 June 2026.}
-\end{rPresSection}
-
-\begin{rPresSection}{2026}{\textbf{PolMeth Europe 2026}, \textit{Scheduled}, Trinity College Dublin, 14-15 May 2026.}
-\end{rPresSection}
-
-\begin{rPresSection}{2026}{\textbf{Quantitative and Computational Analysis of Text, Image and Video-as-Data  (COMPTEXT)}, \textit{Scheduled}, Birmingham , 23-25 April 2026.}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{BAGSS Workshop Computational Text Analysis in Party Research.} \textit{Economic Performance Indicators and Strategic Valence Choices.} University of Bamberg, 25–26 September 2025.}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{Social Science Methodology Conference (RC33).} \textit{Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels.} University of Naples, 22–25 September 2025 (with G. Celebrin).}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{Italian Political Science Association (SISP).} University of Naples, 4–6 September 2025.}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{MetRiSP Workshop.} \textit{Methods for Political Science Research in the Age of Artificial Intelligence.} MetRiSP Network, 3 September 2025.}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{Collegio Carlo Alberto Days.} \textit{When Valence Strategies Increase Polling Support: Evidence from Electoral Campaigns.} Collegio Carlo Alberto, Turin.}
-\end{rPresSection}
-
-\begin{rPresSection}{2025}{\textbf{MZES-DVPW Methods of Political Science.} \textit{Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments.} University of Mannheim (with A. Ceron \& G. M. Invernizzi).}
-\end{rPresSection}
-
-\begin{rPresSection}{2024}{\textbf{POLS PIRSS Seminar Series.} \textit{Analyzing Public Perceptions of Government Actions and Political Scandals Through Survey Experimental Designs.} University of Milan (with U. Platini).}
-\end{rPresSection}
-
-\begin{rPresSection}{2024}{\textbf{Italian Political Science Association (SISP).} University of Trieste, 12–14 September 2024.}
-\end{rPresSection}
-
-\begin{rPresSection}{2024}{\textbf{Collegio Carlo Alberto Days.} \textit{Valence Theory and Political Scandals: A Proposal of a Conjoint Experiment.} Collegio Carlo Alberto, Turin.}
-\end{rPresSection}
-
-\begin{rPresSection}{2022}{\textbf{Jean Monnet Centres of Excellence.} \textit{European Emission Trading System: The Impact of EU-ETS on Costs and Benefits.} University of Milan (with A. Lombardi, M. Nascone \& E. Rossoni).}
-\end{rPresSection}
-
-
-\subtitle{Working Papers}
-
-\begin{rWPSection}
-{\textbf{Sangiovanni, S.}, Ceron, A., Invernizzi, G. "Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments"} 
-\end{rWPSection} 
-
-\begin{rWPSection}
-{Ceron, A., Negri, F., \textbf{Sangiovanni, S.} "What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”} 
-\end{rWPSection}
-
-\begin{rWPSection}       
-{\textbf{Sangiovanni, S.} "When Valence Strategies Increase Polling Support: Evidence from Electoral Campaigns”} 
-\end{rWPSection}
-
-\begin{rWPSection}       
-{\textbf{Sangiovanni, S.} "Economic Performance Indicators and Strategic Valence Choices"} 
-\end{rWPSection}
-
-\begin{rWPSection}
-{\textbf{Sangiovanni, S.} "Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties"}
-\end{rWPSection}
-
-\begin{rWPSection}
-{\textbf{Sangiovanni, S.}, Celebrin, G. "Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels"}    
-\end{rWPSection}    
-
-\begin{rWPSection}
-{Taddei, F., \textbf{Sangiovanni, S.} "Just a Football match? Italian Terraces’ Banners Analysis."} 
-\end{rWPSection}
-
-\begin{rWPSection}
-{\textbf{Sangiovanni, S.} "Feeding the Cycle of Negativity: Exploring the Media's Influence on the Tone of Electoral Campaigns"}
-\end{rWPSection}
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	PROFESSIONAL EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Relevant Professional Experiences}
-
-    \subtitle{Academic}
-
-    \begin{rExperienceSection}{Conference Organization Team Member}{September 2023}{ESPAnet 2023, University of Milan, Italy}
-    Managed logistics for conference sessions and collaborated with colleagues in supervising students responsible for assisting conference attendees. Contributed to the preparation of conference materials and documentation
-    \end{rExperienceSection}
-    
-    \begin{rExperienceSection}{Research Assistant}{October 2020 -- December 2020}{Global Media Monitoring Project, University of Milan-Bicocca, Italy}
-    Collected and analyzed tweets from 7 Italian newspapers as part of the Global Media Monitoring Project, in collaboration with the Milano-Bicocca University research group. \href{https://www.osservatorio.it/wp-content/uploads/2016/03/GMMP-2020-Nationa-Report-Italy.pdf}{Read the Italian GMMP 2020 Report}
-    \end{rExperienceSection}
-    
-    \begin{rExperienceSection}{Tutoring Online Project}{October 2022 -- March 2023}{Bocconi University - Harvard University, Milan, Italy}
-    Delivered over 40 hours of tutorship in Mathematics, English, and Italian to support students with financial and learning difficulties
-    \end{rExperienceSection}
-    
-    \subtitle{Extra-Academic}
-    
-    \begin{rExperienceSection}{Esports Caster -- Content Creator}{September 2014 -- May 2018}{Spaziogames, Milan, Italy}
-    Created content and managed live streaming events via OBS Studio, provided live commentary for esports tournaments with over 10k concurrent viewers and wrote articles and reviews for the website
-    \end{rExperienceSection}
+\begin{teachingEntry}
+{Politics, Philosophy and Public Affairs}
+{A.Y. 2024/25}
+{Thesis Seminars for Master's Students, University of Milan}
+{Milan, Italy}
+\enquote{How to Plan a Social Sciences Research Design}, \enquote{Introduction to Qualitative Research} -  \href{https://github.com/ste-sangiovanni/PPPA_Thesis_Seminar}{Lecture slides}.
+\end{teachingEntry}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	FUNDING AND AWARDS SECTION
+% AWARDS, GRANTS, AND FELLOWSHIPS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Awards, Grants \& Memberships}
+\begin{rSection}{Awards, Grants \& Fellowships}
 
-    \begin{rPresSection}{2025}{Visiting PhD \href{https://www.ipsa.org/na/job-offer/mzes-visiting-fellowship-phd-students}{Fellowship}, Mannheim Centre for European Social Research (MZES)}
-    \end{rPresSection}\vspace{-0.5cm}
-    \begin{rPresSection}{2025}{MetRiSP Workshop Travel Grant, awarded by SISP, GPR, and ECPR's Standing Group on Political Methodology}
-    \end{rPresSection}   \vspace{-0.5cm}
-    \begin{rPresSection}{2025}{MZES-DVPW Conference Travel Grant for Early-Career Researchers, awarded by MZES}
-    \end{rPresSection}  \vspace{-0.5cm}
-    \begin{rPresSection}{2023}{Doctoral Scholarship. Department of Social and Political Sciences, University of Milan}
-    \end{rPresSection}
-\vspace{-0.3cm}
-    \subtitle{Memberships} 
-    
-    \begin{rPresSection}{Since 2025}{European Political Science Society (EPSS)}
-    \end{rPresSection}\vspace{-0.5cm}
-    \begin{rPresSection}{Since 2024}{Italian Political Science Association (SISP)}
-    \end{rPresSection}
+\begin{datedEntry}{2026}
+{COMPTEXT 2026 Travel Grant.}
+\end{datedEntry}
+
+\begin{datedEntry}{2025}
+{\href{https://www.ipsa.org/na/job-offer/mzes-visiting-fellowship-phd-students}{Visiting PhD Fellowship}, Mannheim Centre for European Social Research (MZES).}
+\end{datedEntry}
+
+\begin{datedEntry}{2025}
+{MetRiSP Workshop Travel Grant, awarded by SISP, GPR, and ECPR's Standing Group on Political Methodology.}
+\end{datedEntry}
+
+\begin{datedEntry}{2025}
+{MZES-DVPW Conference Travel Grant for Early-Career Researchers.}
+\end{datedEntry}
+
+\begin{datedEntry}{2023}
+{PhD Scholarship, Department of Social and Political Sciences, University of Milan.}
+\end{datedEntry}
+
 \end{rSection}
+
 %----------------------------------------------------------------------------------------
-%	SKILLS SECTION
+% SUMMER SCHOOLS AND METHODS TRAINING
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summer Schools \& Methods Training}
+
+\begin{trainingEntry}
+{Adapters: Lightweight Machine Learning for Social Science Research, GESIS}
+{June 2025}
+{Adapter-based fine-tuning of large language models in Python.}
+\end{trainingEntry}
+
+\begin{trainingEntry}
+{Large Language Models for Political Scientists, Italian Political Science Association}
+{Sept. 2024}
+{Hands-on training on the use of large language models for political science research.}
+\end{trainingEntry}
+
+\begin{trainingEntry}
+{Summer Institute in Computational Social Science (SICSS), University of Bologna}
+{June 2024}
+{Two-week summer school on computational methods, with competitive selection process.}
+\end{trainingEntry}
+
+\begin{trainingEntry}
+{RECSM Winter Methods School, Universitat Pompeu Fabra}
+{Mar. 2023}
+{Network Analysis and Visualization with R.}
+\end{trainingEntry}
+
+\begin{trainingEntry}
+{RECSM Summer Methods School, Universitat Pompeu Fabra}
+{June 2022}
+{Introduction to Python, Introduction to R, Survey Methodology and Survey Design.}
+\end{trainingEntry}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% RESEARCH AND PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research \& Professional Experience}
+
+\begin{experienceEntry}
+{Research Assistant}
+{Oct. 2020 -- Dec. 2020}
+{Global Media Monitoring Project, University of Milan-Bicocca, Italy}
+Collected and analyzed tweets from seven Italian newspapers as part of the Global Media Monitoring Project, in collaboration with the University of Milan-Bicocca research group. \href{https://www.osservatorio.it/wp-content/uploads/2016/03/GMMP-2020-Nationa-Report-Italy.pdf}{Italian GMMP 2020 Report}.
+\end{experienceEntry}
+
+\begin{experienceEntry}
+{Conference Organization Team Member}
+{Sept. 2023}
+{ESPAnet 2023, University of Milan, Italy}
+Supported conference logistics, session organization, student coordination, and preparation of conference materials.
+\end{experienceEntry}
+
+\begin{experienceEntry}
+{Tutoring Online Project}
+{Oct. 2022 -- Mar. 2023}
+{Bocconi University -- Harvard University, Milan, Italy}
+Delivered over 40 hours of tutoring in Mathematics, English, and Italian to support students with financial and learning difficulties.
+\end{experienceEntry}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% MEMBERSHIPS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Memberships}
+
+\begin{datedEntry}{Since 2026}
+{COMPTEXT}
+\end{datedEntry}
+
+\begin{datedEntry}{Since 2025}
+{European Political Science Society (EPSS)}
+\end{datedEntry}
+
+\begin{datedEntry}{Since 2024}
+{Italian Political Science Association (SISP)}
+\end{datedEntry}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% SKILLS
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Skills}
@@ -274,15 +421,11 @@ Lecture: ``Introduction to Qualitative Research"" -- \href{https://github.com/st
 Languages & English (IELTS Academic Band 8, C1), Italian (native), Spanish (A2) \\
 Programming Languages & R, Python, \LaTeX, SQL \\
 Data Analysis Tools & STATA, Meta Content Library, Tableau, SPSS \\
-Developer Tools & Git, GitHub, VisualStudio Code, Jupyter Notebook \\
+Developer Tools & Git, GitHub, Visual Studio Code, Jupyter Notebook \\
 Live Streaming Tools & OBS Studio, OBS Ninja, StreamElements \\
 GIS Tools & QGIS
 \end{skillsTable}
 
 \end{rSection}
-
-
-
-
 
 \end{document}
