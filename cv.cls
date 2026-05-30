@@ -262,4 +262,28 @@
   \end{tabular}
 }
 
+% Academic references
+\newenvironment{referenceEntry}[5]{
+  \noindent
+  \begin{minipage}[t]{0.25\textwidth}
+    \raggedleft\textbf{#1}
+  \end{minipage}%
+  \hspace{0.45em}%
+  \begin{minipage}[t]{1.2em}
+    \centering
+    \vspace{#5}
+    {\small\textcolor{CVGray}{\faIcon{university}}}\\[0.15em]
+    {\small\textcolor{CVGray}{\faIcon{envelope}}}
+  \end{minipage}%
+  \hspace{0.55em}%
+  {\color{CVGray}\vrule width 0.4pt}%
+  \hspace{0.8em}%
+  \begin{minipage}[t]{0.62\textwidth}
+    #2\\
+    #3\\
+    \href{mailto:#4}{#4}
+  \end{minipage}
+  \par\vspace{0.95em}
+}{}
+
 \endinput

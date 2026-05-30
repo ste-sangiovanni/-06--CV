@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1779987569.35629 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" "CV.pdf" "CV" 1779987569.9935 0
-  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" 1779987569.18106 16417 83bdbcec90c600703f68101b75d505d5 ""
+["pdflatex"] 1780163002.41202 "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" "CV.pdf" "CV" 1780163002.82948 0
+  "/Users/stesangio/Library/CloudStorage/GoogleDrive-stesangio95@gmail.com/My Drive/CV/-06--CV/CV.tex" 1780163002.25198 17093 8fd9075074325d5001876dc1df3ea797 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc" 1622837620 2905 1556c73dc99638e0dfff2f132c244f30 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -17,6 +18,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm" 1651520503 1380 a61d7c2860b3f6d342213a6b9b229e9e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1622837620 1316 1c2ee668ea88be9bd4f39690662cc344 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free3solid.tfm" 1622837620 1236 01f4577264ada23bfb25b6d983302f6b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
@@ -60,6 +62,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty" 1651520503 8112 16dbb19fca3f2df864fea49874356f35 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1651520503 1206 b35c804e364d46e802702be118632c48 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd" 1651520503 980 1b42613a5245ed252c04030af746d737 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd" 1651520503 980 2697c93582246b8da75635f956e941ff ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def" 1713382759 19440 9da9dcbb27470349a580fca7372d454b ""
@@ -89,10 +92,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743860947 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743860925 3345743 a05531e03f59fac0f10b635aff8927e9 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV.aux" 1779987569.91063 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
-  "CV.out" 1779987569.74935 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV.tex" 1779987569.18106 16417 83bdbcec90c600703f68101b75d505d5 ""
-  "cv.cls" 1779987480.82246 6473 5090ba2ed3cb75c28df08fb89052b598 ""
+  "CV.aux" 1780163002.77626 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
+  "CV.out" 1780163002.64659 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV.tex" 1780163002.25198 17093 8fd9075074325d5001876dc1df3ea797 ""
+  "cv.cls" 1780162961.41194 7035 e105685fc48989ec1a8b627e9d51fd27 ""
   (generated)
   "CV.aux"
   "CV.log"
